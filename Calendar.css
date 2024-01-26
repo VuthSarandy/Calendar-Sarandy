@@ -1,0 +1,93 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(255, 85, 0);
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: url(IMG/zodiac-3820097_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+/* First Section */
+.Section-one{
+    margin-left: 200px;
+    background-color: transparent;
+    border-radius: 0.5rem;
+    width: 90%;
+    padding: 1.5rem 0px;
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.515),-1px -2px 5px 1px rgba(152, 152, 152, 0.162);
+    display: flex;
+}
+/* Second Section */
+.Section-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    width: 50%;
+    height: 400px;
+    padding: 0 1.5rem;  
+}
+
+.Section-two .title h1{    
+    font-size: 1.5rem;
+}
+
+
+table{
+    width: 700px;
+}
+.table-thead tr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.table-thead tr th{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 15px;
+    height: 15px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+
+.table-body tr{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+.table-body tr td{
+    font-size: larger;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: transparent;
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.578);
+    color: rgb(192, 192, 192)
+}
+/* border none null date */
+.td-none {
+    box-shadow: none !important;
+}
+/* container of table */
+.container{
+    height: 100vh;
+    width: 48%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.table-body tr td {
+    /* ... existing styles ... */
+    transition: background-color 0.3s ease;
+}
